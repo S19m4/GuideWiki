@@ -11,7 +11,7 @@
         "Проверка формата: [Схема JSON](format_schema)",
         "Открыть сайт JSON: [json.org](https://www.json.org/json-ru.html)",
         "",
-        "Пример многоцветной строки: [Инфо](link_info) [Внимание](link_attention) [Опасно](link_danger)",
+        "Пример многоцветной строки: [Инфо](link_info), [Внимание](link_attention), [Опасно](link_danger)",
         "Пример ARGB: {#CCFFAA00+Полупрозрачный оранжевый текст}",
         "Пример literal-переноса: Строка A\\nСтрока B\\nСтрока C"
       ]
