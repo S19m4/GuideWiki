@@ -11,7 +11,7 @@
         "Проверка формата: [Схема JSON](format_schema)",
         "Открыть сайт JSON: [json.org](https://www.json.org/json-ru.html)",
         "",
-        "Пример многоцветной строки: [Инфо](link_info) [Внимание](link_attention) [Опасно](link_danger)",
+        "Пример многоцветной строки: {#04dbcd+Инфо} / {#ffdd57+Внимание} / {#ff6b6b+Опасно}",
         "Пример ARGB: {#CCFFAA00+Полупрозрачный оранжевый текст}",
         "Пример literal-переноса: Строка A\\nСтрока B\\nСтрока C"
       ]
@@ -56,7 +56,7 @@
         "Внешний пример: [Открыть YouTube](https://www.youtube.com/watch?v=WGW0CwHT_cg&t=4715s)",
         "",
         "Тест not-found: [Несуществующая страница](missing_page_demo)",
-        "Рекомендация: одна ссылка на одну строку для стабильного hit-test."
+        "Можно использовать несколько ссылок в одной строке: [Внутренняя](links_internal) и [Внешняя](https://example.com)."
       ]
     },
     {
@@ -76,7 +76,7 @@
       "id": "scroll_demo",
       "title": "{#e0af68+Скролл-демо}",
       "content": [
-        "{#7aa2f7+Эта вкладка специально длинная — проверь скролл справа и слева. Хорошо проверь.}",
+        "{#7aa2f7+Эта вкладка специально длинная — проверь скролл справа и слева.}",
         "",
         "{#9ece6a+Легенда цветов}: {#04dbcd+инфо} | {#ffdd57+предупреждение} | {#ff6b6b+критично}",
         "",
@@ -195,6 +195,45 @@
         "Частые проблемы: [FAQ / Ошибки](faq_common)",
         "",
         "Обновил JSON, но не видно изменений? Нажми кнопку Refresh в шапке Wiki."
+      ]
+    },
+    {
+      "id": "hub",
+      "title": "{#7dcfff+Mega Hub}",
+      "content": [
+        "{#7dcfff+Центральная навигация}: быстрые маршруты по всем разделам и внешним ресурсам.",
+        "",
+        "Старт: [Пакет новичка](hub_starter_pack) | [Дневной план](hub_daily_plan) | [Недельный план](hub_weekly_plan)",
+        "Прогрессия: [Тиры экипировки](progression_gear_tiers) | [30-50](progression_leveling_30_50) | [50-60](progression_leveling_50_60)",
+        "Endgame: [Loop 60+](progression_endgame_loop) | [Рейд-чеклист](raid_prep_checklist)",
+        "Фарм: [Север](farm_rotation_north) | [Юг](farm_rotation_south) | [Прайм](farm_rotation_prime)",
+        "Боссы: [Open World](bosses_open_world) | [Инстансы](bosses_dungeon) | [Расписание](bosses_schedule)",
+        "PvP: [Сетапы](pvp_team_setup) | [Shotcaller](pvp_shotcaller) | [Анти-фокус](pvp_anti_focus)",
+        "Экономика: [Flip-советы](economy_flip_tips) | [Календарь рынка](economy_market_calendar)",
+        "Пакет ссылок: [Навигация 360](hub_links_pack)",
+        "Внешние ресурсы: [JSONLint](https://jsonlint.com) | [YouTube](https://www.youtube.com) | [Wikipedia RF Online](https://en.wikipedia.org/wiki/RF_Online)"
+      ]
+    },
+    {
+      "id": "progression_plus",
+      "title": "{#9ece6a+Прогрессия+}",
+      "content": [
+        "Маршруты прокачки и перехода в endgame:",
+        "База: [Первый час](quick_start) + [Маршрут 30-50](progression_leveling_30_50) + [Маршрут 50-60](progression_leveling_50_60)",
+        "Экипировка: [Тиры и приоритеты](progression_gear_tiers) и [Loop 60+](progression_endgame_loop)",
+        "Перед рейдом: [Чеклист подготовки](raid_prep_checklist)",
+        "Связанные разделы: [Фарм Север](farm_rotation_north) | [Фарм Юг](farm_rotation_south) | [Фарм Прайм](farm_rotation_prime)"
+      ]
+    },
+    {
+      "id": "external_resources",
+      "title": "{#c0caf5+Ресурсы / Ссылки}",
+      "content": [
+        "Подборка полезных внешних ссылок и внутренних статей.",
+        "Справка JSON: [json.org](https://www.json.org/json-ru.html) | [JSONLint](https://jsonlint.com)",
+        "Видео/медиа: [YouTube](https://www.youtube.com) | [Twitch](https://www.twitch.tv)",
+        "Комьюнити: [Discord](https://discord.com) | [Reddit](https://www.reddit.com)",
+        "Внутренний маршрут: [Пакет новичка](hub_starter_pack) | [Навигация 360](hub_links_pack)"
       ]
     },
     {
@@ -429,6 +468,203 @@
         "{#ff6b6b+[FIX]} исправленные ссылки и опечатки",
         "",
         "Пример: [ADD] PvP 1x1, [CHANGE] Economy routes, [FIX] id в links."
+      ]
+    },
+    {
+      "id": "hub_starter_pack",
+      "title": "{#7dcfff+Пакет новичка}",
+      "content": [
+        "Короткий маршрут запуска персонажа без лишней суеты.",
+        "Шаг 1: [Маршрут на первый час](quick_start).",
+        "Шаг 2: [Маршрут 30-50](progression_leveling_30_50).",
+        "Шаг 3: [Тиры экипировки](progression_gear_tiers).",
+        "Шаг 4: [Дневной план](hub_daily_plan) и [Недельный план](hub_weekly_plan).",
+        "Быстрая навигация: [Навигация 360](hub_links_pack)."
+      ]
+    },
+    {
+      "id": "hub_daily_plan",
+      "title": "{#7dcfff+Дневной план}",
+      "content": [
+        "1) 20-30 минут стабильного фарма: [Север](farm_rotation_north) или [Юг](farm_rotation_south).",
+        "2) Проверка рынка и оборота: [Flip-советы](economy_flip_tips).",
+        "3) 2-3 PvP стычки: [Сетапы команды](pvp_team_setup).",
+        "4) Если есть время — подготовка под боссов: [Open World](bosses_open_world).",
+        "5) Закрыть день по чеклисту: [Календарь рынка](economy_market_calendar)."
+      ]
+    },
+    {
+      "id": "hub_weekly_plan",
+      "title": "{#7dcfff+Недельный план}",
+      "content": [
+        "Понедельник-вторник: разгон и ресурсы ([Маршрут 50-60](progression_leveling_50_60)).",
+        "Среда-четверг: усиление экипировки ([Тиры экипировки](progression_gear_tiers)).",
+        "Пятница: тест билдов и PvP связок ([Shotcaller](pvp_shotcaller)).",
+        "Суббота-воскресенье: боссы и крупные окна ([Расписание](bosses_schedule)).",
+        "Финал недели: [Loop 60+](progression_endgame_loop) + [Рейд-чеклист](raid_prep_checklist)."
+      ]
+    },
+    {
+      "id": "hub_links_pack",
+      "title": "{#7dcfff+Навигация 360}",
+      "content": [
+        "Старт и прогрессия: [Пакет новичка](hub_starter_pack) | [30-50](progression_leveling_30_50) | [50-60](progression_leveling_50_60) | [Loop 60+](progression_endgame_loop)",
+        "Экипировка и рейды: [Тиры](progression_gear_tiers) | [Рейд-чеклист](raid_prep_checklist) | [Инстансы](bosses_dungeon)",
+        "Фарм и экономика: [Север](farm_rotation_north) | [Юг](farm_rotation_south) | [Прайм](farm_rotation_prime) | [Flip](economy_flip_tips)",
+        "PvP пакет: [Сетапы](pvp_team_setup) | [Shotcaller](pvp_shotcaller) | [Анти-фокус](pvp_anti_focus)",
+        "Внешний пакет: [JSONLint](https://jsonlint.com) | [YouTube](https://www.youtube.com) | [Discord](https://discord.com)"
+      ]
+    },
+    {
+      "id": "progression_gear_tiers",
+      "title": "{#9ece6a+Тиры экипировки}",
+      "content": [
+        "T1: базовый сет для стабильного фарма и выживания.",
+        "T2: усиление оружия + точечные defensive апгрейды.",
+        "T3: подготовка к сложным боссам и PvP окнам.",
+        "Связанные маршруты: [Loop 60+](progression_endgame_loop) и [Рейд-чеклист](raid_prep_checklist)."
+      ]
+    },
+    {
+      "id": "progression_leveling_30_50",
+      "title": "{#9ece6a+Маршрут 30-50}",
+      "content": [
+        "Цель: дойти до 50 без провалов по урону и ресурсам.",
+        "Фокус на безопасный фарм и регулярную замену расходников.",
+        "Параллельно собирай основу экономики: [Flip-советы](economy_flip_tips).",
+        "Следующий этап: [Маршрут 50-60](progression_leveling_50_60)."
+      ]
+    },
+    {
+      "id": "progression_leveling_50_60",
+      "title": "{#9ece6a+Маршрут 50-60}",
+      "content": [
+        "Цель: быстрый вход в endgame с рабочим набором шмота.",
+        "Чередуй фарм и усиление ключевых предметов.",
+        "Не пропускай подготовку к боссам: [Open World](bosses_open_world) и [Инстансы](bosses_dungeon).",
+        "После 60 переходи в [Loop 60+](progression_endgame_loop)."
+      ]
+    },
+    {
+      "id": "progression_endgame_loop",
+      "title": "{#9ece6a+Loop 60+}",
+      "content": [
+        "Базовый цикл: фарм -> апгрейд -> боссы -> PvP -> повтор.",
+        "Фарм-ветка: [Север](farm_rotation_north), [Юг](farm_rotation_south), [Прайм](farm_rotation_prime).",
+        "Босс-ветка: [Open World](bosses_open_world) и [Инстансы](bosses_dungeon).",
+        "PvP-ветка: [Сетапы](pvp_team_setup), [Shotcaller](pvp_shotcaller), [Анти-фокус](pvp_anti_focus).",
+        "Контроль экономики: [Flip-советы](economy_flip_tips) и [Календарь рынка](economy_market_calendar)."
+      ]
+    },
+    {
+      "id": "raid_prep_checklist",
+      "title": "{#9ece6a+Рейд-чеклист}",
+      "content": [
+        "1) Проверить расходники, баффы, панели скиллов.",
+        "2) Уточнить роли: танк/урон/поддержка.",
+        "3) Проверить позиционку и фокус-коллы ([Shotcaller](pvp_shotcaller)).",
+        "4) Сверить тайминг по [Расписанию боссов](bosses_schedule).",
+        "5) После рейда обновить план через [Недельный маршрут](hub_weekly_plan)."
+      ]
+    },
+    {
+      "id": "farm_rotation_north",
+      "title": "{#ff9e64+Фарм: Север}",
+      "content": [
+        "Безопасный маршрут для стабильного дохода и низкого риска.",
+        "Подходит для разогрева перед PvP и боссами.",
+        "Связки: [Дневной план](hub_daily_plan) + [Flip-советы](economy_flip_tips)."
+      ]
+    },
+    {
+      "id": "farm_rotation_south",
+      "title": "{#ff9e64+Фарм: Юг}",
+      "content": [
+        "Сбалансированный маршрут: риск выше, доход выше.",
+        "Рекомендуется при средней экипировке и опыте ротаций.",
+        "Связки: [Маршрут 50-60](progression_leveling_50_60) + [Loop 60+](progression_endgame_loop)."
+      ]
+    },
+    {
+      "id": "farm_rotation_prime",
+      "title": "{#ff9e64+Фарм: Прайм}",
+      "content": [
+        "Маршрут для прайм-тайма и групповых выходов.",
+        "Высокая конкуренция: заранее распределяй роли и цели.",
+        "Связки: [Сетапы команды](pvp_team_setup) и [Рейд-чеклист](raid_prep_checklist)."
+      ]
+    },
+    {
+      "id": "bosses_open_world",
+      "title": "{#f7768e+Боссы: Open World}",
+      "content": [
+        "Быстрые окна входа требуют готового состава и связи.",
+        "Перед выходом сверяй [Расписание](bosses_schedule).",
+        "После убийства фиксируй экономику дропа: [Календарь рынка](economy_market_calendar)."
+      ]
+    },
+    {
+      "id": "bosses_dungeon",
+      "title": "{#f7768e+Боссы: Инстансы}",
+      "content": [
+        "Инстансы требуют дисциплины ротаций и сейвов.",
+        "Состав и роли: [Сетапы команды](pvp_team_setup).",
+        "Перед входом всегда проходи [Рейд-чеклист](raid_prep_checklist)."
+      ]
+    },
+    {
+      "id": "bosses_schedule",
+      "title": "{#f7768e+Расписание боссов}",
+      "content": [
+        "Собери таблицу таймингов под свой сервер и прайм-окна.",
+        "Внутренние маршруты: [Open World](bosses_open_world) | [Инстансы](bosses_dungeon).",
+        "Внешние заметки удобно хранить в [Google Docs](https://docs.google.com)."
+      ]
+    },
+    {
+      "id": "pvp_team_setup",
+      "title": "{#f7768e+PvP: Сетапы команды}",
+      "content": [
+        "Базовый шаблон: фронтлайн + burst + контроль + поддержка.",
+        "Согласуй порядок входа и выхода до начала боя.",
+        "Командные роли: [Shotcaller](pvp_shotcaller) и [Анти-фокус](pvp_anti_focus)."
+      ]
+    },
+    {
+      "id": "pvp_shotcaller",
+      "title": "{#f7768e+PvP: Shotcaller}",
+      "content": [
+        "Shotcaller задаёт темп: цель, контроль, отступление, дожим.",
+        "Коллы должны быть короткими и одинаковыми по формату.",
+        "Связки: [Сетапы команды](pvp_team_setup) и [Анти-фокус](pvp_anti_focus)."
+      ]
+    },
+    {
+      "id": "pvp_anti_focus",
+      "title": "{#f7768e+PvP: Анти-фокус}",
+      "content": [
+        "Следи за позиционкой и не стой в открытом угле.",
+        "Держи ключевой сейв под пик входящего урона.",
+        "Связки: [Shotcaller](pvp_shotcaller) и [Loop 60+](progression_endgame_loop)."
+      ]
+    },
+    {
+      "id": "economy_flip_tips",
+      "title": "{#ff9e64+Экономика: Flip-советы}",
+      "content": [
+        "Работай с понятной маржой и объёмом оборота.",
+        "Не покупай пик спроса без заранее заданной цели выхода.",
+        "Сверяй неделю по [Календарю рынка](economy_market_calendar).",
+        "Связки: [Дневной план](hub_daily_plan) и [Недельный план](hub_weekly_plan)."
+      ]
+    },
+    {
+      "id": "economy_market_calendar",
+      "title": "{#ff9e64+Экономика: Календарь рынка}",
+      "content": [
+        "Фиксируй окна спроса по дням и времени.",
+        "Отмечай влияние боссов и событий на цену.",
+        "Связки: [Расписание боссов](bosses_schedule) | [Flip-советы](economy_flip_tips) | [Loop 60+](progression_endgame_loop)."
       ]
     }
   ]
